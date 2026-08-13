@@ -1,0 +1,32 @@
+version: 1
+
+project:
+  title: Making Your Repository Jupyter4NFDI-Ready
+
+  authors:
+    - name: Aleksandra Pawlik
+      orcid: https://orcid.org/0000-0001-8418-6735
+
+  toc:
+    - file: modules/01_introduction.md
+
+
+  # In-page execution (the "power" button at the top of the page)
+  jupyter:
+    binder:
+      repo: NFDI-Jupyter/learn-jupyter4nfdi-ready
+      provider: github
+      ref: main
+
+site:
+  options:
+    logo: "Jupyter4NFDI-top.png"
+    favicon: "favicon.svg"
+  actions:
+    - title: Jupyter4NFDI
+      url: https://nfdi-jupyter.de/
+  parts:
+    primary_sidebar_footer: ''
+    footer: |
+      "This work is supported by the DFG project no.521453681."  |
+      [Jupyter4NFDI](https://nfdi-jupyter.de/)
