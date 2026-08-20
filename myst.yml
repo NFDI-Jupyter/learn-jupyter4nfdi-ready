@@ -11,6 +11,7 @@ project:
     - file: modules/01_introduction.md
     - file: modules/02_why_repo2docker_ready.md
     - file: modules/03_configuration_files.md
+    - file: modules/04_python_projects.md
 
 
   # In-page execution (the "power" button at the top of the page)
